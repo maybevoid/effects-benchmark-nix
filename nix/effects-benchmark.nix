@@ -8,9 +8,10 @@ mkDerivation {
   src = ../effects-benchmarks;
   isLibrary = false;
   isExecutable = false;
+  doBenchmark = true;
   libraryHaskellDepends = [
     base extensible-effects freer-simple fused-effects mtl polysemy
-    attoparsec vector aeson implicit-effects
+    implicit-effects
   ];
   benchmarkHaskellDepends = [ base dump-core gauge polysemy weigh ];
   doHaddock = false;
