@@ -1,0 +1,9 @@
+[submodule "effects-benchmarks"]
+	path = effects-benchmarks
+	url = git@github.com:maybevoid/effects-benchmarks.git
+[submodule "fused-effects"]
+	path = fused-effects
+	url = git@github.com:fused-effects/fused-effects.git
+[submodule "implicit-effects"]
+	path = implicit-effects
+	url = git@github.com:maybevoid/implicit-effects.git
