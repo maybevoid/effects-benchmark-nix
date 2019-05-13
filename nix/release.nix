@@ -4,7 +4,7 @@ let
     nixpkgs.haskellPackages.callPackage ./fused-effects.nix { };
 
   implicit-effects =
-    nixpkgs.haskellPackages.callPackage ../implicit-effects/default.nix { };
+    nixpkgs.haskellPackages.callPackage ../implicit-effects/nix/project.nix { };
 
   haskellPackages = nixpkgs.haskellPackages.override {
     overrides = self: super: {
